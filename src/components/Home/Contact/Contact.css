@@ -1,0 +1,71 @@
+.Contact .card {
+    background-color: #1D1D1D;
+    border: 1px solid #f3c623;
+}
+
+.Contact .btn {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.Contact .btn:hover {
+    font-size: 16px;
+    color: #f3c623;
+    border: 1px solid #f3c623;
+}
+
+.Contact .header h2 {
+    font-size: 35px;
+}
+
+.Contact .header h4 {
+    font-size: 25px;
+}
+
+.Contact .header span {
+    color: #f3c623;
+}
+
+.Contact p {
+    font-size: 16px;
+}
+
+.Contact .wrapper {
+	padding-bottom: 50px;
+}
+
+.Contact .divider
+{
+	position: relative;
+	margin-top: 30px;
+	height: 1px;
+}
+
+.Contact .div-transparent:before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 25%;
+	right: 25%;
+	width: 50%;
+	height: 1px;
+	background: #fff;
+}
+
+.Contact .div-dot:after {
+	content: "";
+	position: absolute;
+	z-index: 1;
+	top: -5px;
+	left: calc(50% - 5px);
+	width: 12px;
+	height: 12px;
+	background-color: #f3c623;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 2px#1D1D1D,
+					0 0 0 10px #1D1D1D;
+}

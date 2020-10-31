@@ -1,0 +1,48 @@
+.Navbar .navbar {
+    background: #0a012b;
+}
+
+.Navbar  h3{
+    color: #FFFFFF;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.Navbar .navbar-brand h3:hover,
+.Navbar .nav-link span:hover{
+    color: #213ddb!important;
+}
+
+.Navbar .nav-link {
+    color: #FFFFFF!important;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Navbar .btn {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.Navbar .btn:hover {
+    font-size: 16px;
+    color: #380d9b;
+    border: 1px solid #2408a2;
+}
+
+.Navbar .navbar-toggler {
+    border-radius: 0;
+    background: #f3c623;
+    border: none;
+}
+
+.Navbar .fas {
+    font-size: 25px;
+    color:#1D1D1D;
+}
